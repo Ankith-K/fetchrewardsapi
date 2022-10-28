@@ -5,7 +5,7 @@
 3. The rest of the files are for configuration for Node.js and Heroku.
 
 ## Endpoint Access
-1. Please use a API platform like Postman because these endpoints require request body information (cannot be accessed through URL): https://www.postman.com.
+1. Please use a API platform like Postman because these endpoints require request body information (cannot be accessed through Browser URL): https://www.postman.com.
 2. Download this Postman collection and open in Postman to have pre-built requests ready (Add Transactions, Get Point Balance, Spend Points, Clear All Data
 )
 3. Endpoint Access Routes:

@@ -1,9 +1,8 @@
 # Instructions
 ## General
-1. The Fetch Rewards API is deployed through Heroku. This is a repository just to view the code.
-2. 
-3. The bulk of the API and logic is in "index.js". There is an additional file called "Transaction.js", which is an object representaton of a transaction.
-4. The rest of the files are for configuration for Node.js and Heroku.
+1. The Fetch Rewards API is deployed through Heroku. This is a repository just to view the code. 
+2. The bulk of the API and logic is in "index.js". There is an additional file called "Transaction.js", which is an object representaton of a transaction.
+3. The rest of the files are for configuration for Node.js and Heroku.
 
 ## Endpoint Access
 1. Please use a API platform like Postman because these endpoints require request body information (cannot be accessed through URL): https://www.postman.com.

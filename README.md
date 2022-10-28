@@ -11,7 +11,7 @@
 ): https://www.getpostman.com/collections/8bf662deef29d03b4b3c 
 3. Endpoint Access Routes:
 - Add Transactions
-POST
+-- POST
 https://fetchrewardsapi.herokuapp.com/addtransaction 
 Request Body Example:
 { "payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z" }

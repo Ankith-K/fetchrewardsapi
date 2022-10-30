@@ -15,14 +15,13 @@
   * https://fetchrewardsapi.herokuapp.com/addtransaction 
   * Request Body Example: { "payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z" }
   * Response:
-  * Successful: { "payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z" }
-  * Unsuccessful:
-  * "Invalid transaction: Points go below 0 for this payer."
+   * Successful: { "payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z" }
+   * Unsuccessful: "Invalid transaction: Points go below 0 for this payer."
 * Get Point Balance
   * GET
   * https://fetchrewardsapi.herokuapp.com/pointbalance
   * Response:
-  * Successful:
+   * Successful:
   {
     "DANNON": 1000, 
     ”UNILEVER” : 0,
@@ -33,7 +32,7 @@
   * https://fetchrewardsapi.herokuapp.com/spend
   * Request Body Example: { "points": 5000 }
   * Response:
-  * Successful:
+   * Successful:
 [
 { "payer": "DANNON", "points": -100 },
 { "payer": "UNILEVER", "points": -200 },
@@ -44,5 +43,5 @@
   * GET
   * https://fetchrewardsapi.herokuapp.com/clear
   * Response:
-  * Successful:"All data has been cleared"
+   * Successful:"All data has been cleared"
 

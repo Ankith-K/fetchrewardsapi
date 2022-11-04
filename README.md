@@ -1,4 +1,6 @@
-# Instructions
+# About
+The Points Spender is a simple project meant to develop API's. The points are associated with a user. A user can add points to an account, spend points, get their point balance, and clear their point balance. Points are associated with a transaction. A transaction contains a payer (the company the points belong to- for spending at), point balance, and timestamp. When points are spent, they are spent with the oldest transactions first (based on timestamp). Points, for a payer, cannot go to a negative balance when users add points to their account. When users get their points, the points are shown by their distribution across payers. 
+
 ## General
 1. The Fetch Rewards API allows a user to add points to an account, spend points, get point balance, and clear their points. Points are associated with a transaction, which has a payer, point balance, and timestamp. Points are spent by earliest transactions in the system. More information: https://fetch-hiring.s3.us-east-1.amazonaws.com/points.pdf
 2. The Fetch Rewards API is deployed through Heroku. This is a repository just to view the code. 
